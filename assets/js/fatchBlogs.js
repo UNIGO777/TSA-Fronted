@@ -1,5 +1,5 @@
 // API URL
-const apiUrl = 'http://localhost:5000'; // Replace with your API endpoint
+const apiUrl = 'https://tsa-backend-thuu.onrender.com'; // Replace with your API endpoint
 
 // Container to hold blog cards
 const blogContainer = document.getElementById('blog-container');

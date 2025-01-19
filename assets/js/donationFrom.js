@@ -95,7 +95,7 @@ donateButton.addEventListener("click", () => {
   // Print donation details to console
   
    
-    const apiUrl = 'http://localhost:5000';
+    const apiUrl = 'https://tsa-backend-thuu.onrender.com';
   
     // Call the backend to create a Razorpay order
     fetch(`${apiUrl}/api/orders/create`, {
@@ -167,7 +167,7 @@ donateButton.addEventListener("click", () => {
     rzp.open();
   }
 function verifyDonationPayment(paymentDetails, orderId, amount,donerName, donerEmail, donerMobile) {
-    const apiUrl = 'http://localhost:5000';
+    const apiUrl = 'https://tsa-backend-thuu.onrender.com';
     fetch(`${apiUrl}/api/payments/verify`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

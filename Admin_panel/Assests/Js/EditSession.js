@@ -74,7 +74,7 @@ let sessionId, sessionName, sessionType, sessionPrice, sessionSelfHelpCredit, se
 function showEditModal(session) {
   // Populate the form with session data
   
-  const apiUrl = 'http://localhost:5000'
+  const apiUrl = 'https://tsa-backend-thuu.onrender.com'
   
 
 

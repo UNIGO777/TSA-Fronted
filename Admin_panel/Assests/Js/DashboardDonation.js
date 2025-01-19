@@ -1,7 +1,7 @@
 const donationsArr = [];
 
 async function getAllDonations() {
-    const apiUrl = 'http://localhost:5000'; // Ensure this matches your backend URL
+    const apiUrl = 'https://tsa-backend-thuu.onrender.com'; // Ensure this matches your backend URL
     try {
         const response = await fetch(`${apiUrl}/api/donations`, {
             method: 'GET',

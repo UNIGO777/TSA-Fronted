@@ -17,5 +17,5 @@ function isTokenValid() {
   
 
 if (!isTokenValid()) {
-    window.location.href = '/login.html'
+    window.location.href = '/admin_panel/login.html'
 }

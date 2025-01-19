@@ -17,7 +17,7 @@ function isTokenValid() {
   
 
 if (!isTokenValid()) {
-    window.location.href = '/admin_panel/login.html'
+    window.location.href = '/login.html'
 }
 
 
@@ -28,5 +28,5 @@ const logoutbutton = document.getElementById('logoutbutton')
 const logout =  () => {
     sessionStorage.removeItem('authToken'); // Remove expired token
     sessionStorage.removeItem('tokenExpiry');
-    window.location.href = '/admin_panel/login.html'
+    window.location.reload()
 }

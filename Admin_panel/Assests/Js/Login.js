@@ -17,7 +17,7 @@ function isTokenValid() {
   
 
 if (isTokenValid()) {
-    window.location.href = '/index.html'
+    window.location.href = '/admin_panel/index.html'
 }
 
 
@@ -71,7 +71,7 @@ async function handleLogin(event) {
         alert('Login successful!');
         // Redirect to dashboard or another page
         
-        window.location.href = '/index.html';
+        window.location.href = '/admin_panel/index.html';
       } else {
         // Handle login error
         alert(data.message || 'Login failed. Please try again.');

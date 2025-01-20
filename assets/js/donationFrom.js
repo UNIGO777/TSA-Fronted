@@ -8,6 +8,7 @@ const donerNameEle = document.getElementById("donerName");
 const donerEmailEle= document.getElementById("donerEmail");
 const donerMobileEle = document.getElementById("donerMobile");
 const donateButton = document.getElementById("donateButton");
+const donateButtonAbsolute = document.getElementById("donateAbsolutebtn");
 
 
 
@@ -20,6 +21,13 @@ donateNowButton.addEventListener("click", () => {
   document.body.style.overflow = "hidden";
   donationModal.classList.remove("hidden");
 });
+
+donateButtonAbsolute.addEventListener("click", () => {
+  document.body.style.overflow = "hidden";
+  donationModal.classList.remove("hidden");
+});
+
+
 
 // Close modal
 closeModalButton.addEventListener("click", () => {

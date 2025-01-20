@@ -119,7 +119,7 @@ async function fetchSessionData(type) {
     sessionModel.classList.remove("hidden");
     sessionHeading.textContent = session.name.toUpperCase();
     sessionImage.src = `https://tsa-backend-thuu.onrender.com/${session.Image}`; // Assuming session object has an image property
-    sessionDescription.textContent = session.description; // Assuming session object has a description property
+    sessionDescription.innerHTML = session.description; // Assuming session object has a description property
     sessionDuration.textContent = `Duration: 45 min to 1 Hours`; // Assuming session object has a duration property
     sessionPrice.textContent = `Price: ₹${session.price}`; // Assuming session object has a price property
   }
